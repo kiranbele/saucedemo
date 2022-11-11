@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test thread-count="5" parallel="classes" name="Parllel Test(failed)">
+    <parameter name="browserName" value="Firefox"/>
+    <classes>
+      <class name="testNGPractice.VarifyAddtocartAllProducts">
+        <methods>
+          <include name="tearDown"/>
+          <include name="addToCartallProducts"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- testNGPractice.VarifyAddtocartAllProducts -->
+    </classes>
+  </test> <!-- Parllel Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

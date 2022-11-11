@@ -1,0 +1,24 @@
+<suite name="MultiBrowser Suite">
+  <test thread-count="5" name="chrome Test">
+  <parameter name="browserName" value="chrome"></parameter>
+    <classes>
+      <class name="testNGPractice.VarifyLoginFunctionality"/>
+      <class name="testNGPractice.VarifyLogoutFunctionality"/>
+      <class name="testNGPractice.VarifyFilterFunctionality"/>
+      <class name="testNGPractice.VarifyProductSelect"/>
+      <class name="testNGPractice.VarifyAddtocartAllProducts"/>
+    </classes>
+  </test> <!-- Test -->
+  
+    <test thread-count="5" name="Firefox Test">
+  <parameter name="browserName" value="Firefox"></parameter>
+    <classes>
+      <class name="testNGPractice.VarifyLoginFunctionality"/>
+      <class name="testNGPractice.VarifyLogoutFunctionality"/>
+      <class name="testNGPractice.VarifyFilterFunctionality"/>
+      <class name="testNGPractice.VarifyProductSelect"/>
+      <class name="testNGPractice.VarifyAddtocartAllProducts"/>
+    </classes>
+  </test> <!-- Test -->
+
+</suite> <!-- Suite -->

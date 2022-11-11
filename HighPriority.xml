@@ -1,0 +1,11 @@
+<suite name="HighPriority Suite">
+  <test thread-count="5" name="High Priority Test">
+  <parameter name="browserName" value="Firefox"></parameter>
+    <classes>
+      <class name="testNGPractice.VarifyLoginFunctionality"/>
+      <class name="testNGPractice.VarifyLogoutFunctionality"/>
+      <class name="testNGPractice.VarifyFilterFunctionality"/>
+      <class name="testNGPractice.VarifyProductSelect"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Priority TC Suite]">
+  <test thread-count="5" name="Priority Test(failed)">
+    <parameter name="browserName" value="chrome"/>
+    <classes>
+      <class name="testNGPractice.VarifyAddtocartAllProducts">
+        <methods>
+          <include name="tearDown"/>
+          <include name="addToCartallProducts"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- testNGPractice.VarifyAddtocartAllProducts -->
+    </classes>
+  </test> <!-- Priority Test(failed) -->
+</suite> <!-- Failed suite [Priority TC Suite] -->

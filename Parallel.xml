@@ -1,0 +1,11 @@
+<suite name="Suite">
+<test parallel="classes" thread-count="3" name="Parllel Test">
+    <parameter name="browserName" value="Firefox"></parameter>
+     <classes>
+      <class name="testNGPractice.VarifyLoginFunctionality"/>
+      <class name="testNGPractice.VarifyLogoutFunctionality"/>
+      <class name="testNGPractice.VarifyAddtocartAllProducts"/>
+    </classes>
+  </test> <!-- Test -->
+  </suite> <!-- Suite -->
+

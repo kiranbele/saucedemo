@@ -1,0 +1,10 @@
+<suite name="Priority TC Suite">
+  <test thread-count="2" name="Priority Test">
+  <parameter name="browserName" value="chrome"></parameter>
+    <classes>
+      <class name="testNGPractice.VarifyLoginFunctionality"/>
+      <class name="testNGPractice.VarifyLogoutFunctionality"/>
+      <class name="testNGPractice.VarifyAddtocartAllProducts"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
